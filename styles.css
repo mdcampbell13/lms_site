@@ -81,6 +81,12 @@ body {
   }
 }
 
+
+.zip_input {
+  width: 180px;
+  margin: auto;
+}
+
 /* sets card-deck in services price listings to flex-column to keep them from breaking between these 2 breakpoints */
 @media (max-width: 767px) and (min-width: 520px) {
   #d-b-display {
