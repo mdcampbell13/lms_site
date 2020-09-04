@@ -49,7 +49,7 @@ const zip = [
 
 let czip2 = 0;
 
-// function to match zip input to an element in zip array and to vailidate field
+// function to match zip input to an element in zip array and to validate field
 function checkZip() {
   czip2 = document.getElementById("czip").value;
   wt_zip = false;
