@@ -1,3 +1,4 @@
+// list of available zip codes
 const zip = [
   40014,
   40023,
@@ -48,12 +49,13 @@ const zip = [
 
 let czip2 = 0;
 
-document.getElementById("basic-addon2").onclick = function () {
+// function to match zip input to an element in zip array and to vailidate field
+function checkZip() {
   czip2 = document.getElementById("czip").value;
   wt_zip = false;
   if (isNaN(czip2) || czip2.length !== 5) {
     alert("Please enter a valid zip code.");
-    document.getElementById('czip').value = '';
+    document.getElementById("czip").value = "";
   } else {
     for (i = 0; i < zip.length; i++)
       if (zip[i] == czip2) {
@@ -64,6 +66,10 @@ document.getElementById("basic-addon2").onclick = function () {
     } else if (wt_zip === false) {
       alert(`We're sorry. ${czip2} is not in our service area.`);
     }
-    document.getElementById('czip').value = '';
+    document.getElementById("czip").value = "";
   }
-};
+}
+
+document.getElementById("basic-addon2").onclick = function () {
+  checkZip();
+}
