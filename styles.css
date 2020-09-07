@@ -1,3 +1,4 @@
+/* keeps body below and above header and footer */
 body {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -28,14 +29,14 @@ body {
   text-align: center;
 }
 
-.footer-text {
-  margin-bottom: 3px;
-}
-
 /* padding for Font Awsome icons in footer */
 .fab {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
+}
+
+.footer-text {
+  margin-bottom: 3px;
 }
 
 /* keeps list items seperated */
@@ -54,17 +55,9 @@ body {
   margin: auto;
 }
 
-/* keeps submit button for zipcode input at bottom of the stack and below footer */
+/* keeps submit button for zipcode input in stack below footer */
 #basic-addon2 {
   z-index: 0;
-}
-
-@media (min-width: 992px) {
-  #lost-title {
-    text-align: center;
-    font-size: 175px;
-    padding-left: 6rem;
-  }
 }
 
 /* sets card-header height to keep call to action buttons even at bottom of cards at these breakpoints */
@@ -120,10 +113,12 @@ body {
   }
 }
 
-/* sets card-deck in screen screen rental price listings to flex-column to keep them from breaking between these 2 breakpoints */
-@media (max-width: 991px) and (min-width: 200px) {
-  #r-b-display {
-    flex-direction: column;
+/* center aligns large text in 404 page on smaller screens */
+@media (min-width: 992px) {
+  #lost-title {
+    text-align: center;
+    font-size: 175px;
+    padding-left: 6rem;
   }
 }
 
@@ -142,5 +137,12 @@ body {
   #lost-para {
     text-align: center;
     display: block;
+  }
+}
+
+/* sets card-deck in screen screen rental price listings to flex-column to keep them from breaking between these 2 breakpoints */
+@media (max-width: 991px) and (min-width: 200px) {
+  #r-b-display {
+    flex-direction: column;
   }
 }
