@@ -1,6 +1,6 @@
 This is my proposed project submission for Code Louisville.
 
-It is a website for my personal business that I began after starting the front-end track on Tree House to prepare for the September front-end session for Code Louisville after volunteering to sit out the March 2020 session. The site also is hosted at the domain louisvillemediasolutions.com in an AWS S3 bucket as the endpoint. That code has been minified for optimization.
+It is a website for a personal business that I began after starting the front-end track on Tree House to prepare for the September front-end session for Code Louisville after volunteering to sit out the March 2020 session. The site also is hosted at the domain louisvillemediasolutions.com in an AWS S3 bucket as the endpoint. That code has been minified for optimization.
 
 This project was developed using the skills I aquired from Tree House and other sources and meets the following project submission requirements for Code Louisville:
 
