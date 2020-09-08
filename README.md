@@ -1,6 +1,6 @@
 This is my proposed project submission for Code Louisville.
 
-This project consists of a site showcasing a local LLC company which is also my personal business. The site also is hosted at the domain louisvillemediasolutions.com in an AWS S3 bucket as the endpoint. That code has been minified for optimization.
+This project consists of a site showcasing a local LLC company which is also my personal small business. The site also is hosted at the domain louisvillemediasolutions.com in an AWS S3 bucket as the endpoint. That code has been minified for optimization.
 
 This project was developed using the skills I aquired from the Treehouse front end web development track and other sources and meets the following project submission requirements for Code Louisville:
 
