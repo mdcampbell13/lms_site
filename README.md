@@ -1,6 +1,6 @@
 This is my proposed project submission for Code Louisville.
 
-This project consists of a site showcasing a local LLC company which is also my personal small business. The site also is hosted at the domain louisvillemediasolutions.com in an AWS S3 bucket as the endpoint. That code has been minified for optimization.
+This project consists of a site for a small business providing audio / video service and equipment rental. The site also is hosted at the domain louisvillemediasolutions.com in an AWS S3 bucket as the endpoint. That code has been minified.
 
 This project was developed using the skills I aquired from the Treehouse front end web development track and other sources and meets the following project submission requirements for Code Louisville:
 
@@ -12,11 +12,11 @@ This project was developed using the skills I aquired from the Treehouse front e
 
 -Use media queries to switch from a one-column mobile layout to a two or more column desktop layout
 
--Create a JavaScript function whose return value is used in your site. The function must be triggered by user action (ex: clicking a button).
+-Create a JavaScript function whose return value is used in your site. The function must be triggered by user action (ex: clicking a button). (zipcode look-up on main page)
 
 -Import Bootstrap from a CDN and use its column system to create a responsive design
 
--Create an image carousel with at least 3 images that it rotates through
+-Create an image carousel with at least 3 images that it rotates through. (on main page)
 
 
 *Mandatory Requirements:
