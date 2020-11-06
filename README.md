@@ -1,5 +1,9 @@
 This is my proposed project submission for Code Louisville.
 
+The Git repository is located at https://github.com/mdcampbell13/lms_site
+
+It is published on GitHub at https://mdcampbell13.github.io/lms_site/
+
 This project consists of a site for a small business providing audio / video service and equipment rental. The site also is hosted at the domain louisvillemediasolutions.com in an AWS S3 bucket as the endpoint. That code has been minified.
 
 This project was developed using the skills I aquired from the Treehouse front end web development track and other sources and meets the following project submission requirements for Code Louisville:
